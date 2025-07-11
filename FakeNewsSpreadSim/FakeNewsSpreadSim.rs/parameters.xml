@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+
+	<parameter name="randomSeed" displayName="Default Random Seed" type="int" 
+						defaultValue="__NULL__"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+						displayOrder="0.0"
+											/>
+				<parameter name="believer_count" displayName="Agent - Believer Count" type="int" 
+						defaultValue="100" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+						displayOrder="2.0"
+											/>
+				<parameter name="spreading_rate" displayName="Hoaxes - Beta - Spreading Rate" type="double" 
+						defaultValue="0.50" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+						displayOrder="5.0"
+											/>
+				<parameter name="factChecker_count" displayName="Agent - FactChecker Count" type="int" 
+						defaultValue="0" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+						displayOrder="3.0"
+											/>
+				<parameter name="verifying_prob" displayName="Hoaxes - pVerify" type="double" 
+						defaultValue="0.05" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+						displayOrder="6.0"
+											/>
+				<parameter name="susceptible_count" displayName="Agent - Susceptible Count" type="int" 
+						defaultValue="900" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+						displayOrder="1.0"
+											/>
+				<parameter name="cred_hoax" displayName="Hoaxes - Alpha - Hoax Credibility" type="double" 
+						defaultValue="0.30" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+						displayOrder="4.0"
+											/>
+				<parameter name="forgetting_rate" displayName="Hoaxes - pForget" type="double" 
+						defaultValue="0.10" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+						displayOrder="7.0"
+											/>
+
+</parameters>

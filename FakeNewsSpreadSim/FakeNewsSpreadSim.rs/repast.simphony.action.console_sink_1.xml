@@ -1,0 +1,14 @@
+<repast.simphony.data2.engine.ConsoleSinkDescriptor simphonyVersion="2.11.0">
+  <name>Count Output Console</name>
+  <dataSet>Social Network Data Set</dataSet>
+  <delimiter>,</delimiter>
+  <format>LINE</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>Susceptible Count</string>
+    <string>Believer Count</string>
+    <string>FactChecker Count</string>
+  </sourceIds>
+  <enabled>true</enabled>
+  <outputStream>OUT</outputStream>
+</repast.simphony.data2.engine.ConsoleSinkDescriptor>
