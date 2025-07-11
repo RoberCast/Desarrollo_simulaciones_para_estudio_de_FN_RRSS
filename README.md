@@ -1,7 +1,7 @@
-## PFG Title
+# PFG Title
 Desarrollo de simulaciones para el estudio de la difusión de noticias falsas (fake news) en redes sociales
 
-# University
+## University
 Universidad Nacional de Educación a Distancia - UNED
 
 ## Course
