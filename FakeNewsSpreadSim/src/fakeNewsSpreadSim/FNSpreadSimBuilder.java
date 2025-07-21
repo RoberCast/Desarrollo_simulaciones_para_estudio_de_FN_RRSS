@@ -104,6 +104,7 @@ public class FNSpreadSimBuilder implements ContextBuilder<Object>
 	    context.add(aScheduler); 
 	    
 	    printNetworkInformation(context, numNodes, numSeeds, numEdges);
+	    resetCounters();
 	    
 	    return context;
 	}
@@ -310,5 +311,15 @@ public class FNSpreadSimBuilder implements ContextBuilder<Object>
 		
 		System.out.println("Nodes, seeds and edges added to the context: [" + numNodes + ", " + numSeeds + ", " + numEdges + "]");
 		System.out.println("Total agents in context: " + totalAgentsInContext);
+	}
+	
+	/**
+	 * Resets the vertices, seeds and edges counters.
+	 */
+	private void resetCounters()
+	{
+		numNodes = 0;
+		numSeeds = 0;
+		numEdges = 0;
 	}
 }
