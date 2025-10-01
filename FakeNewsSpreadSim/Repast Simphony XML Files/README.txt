@@ -2,8 +2,8 @@ The parameters.xml and context.xml files must be placed in the FakeNewsSpreadSim
 
 .
 ├── FakeNewsSpreadSim
-         ├── FakeNewsSpreadSim.rs
-         │       ├── parameters.xml
-         │       └── context.xml
-         └── batch
-                 └── batch_params.xml
+         ├── batch
+         |     └── batch_params.xml
+         └── FakeNewsSpreadSim.rs
+               ├── context.xml
+               └── parameters.xml
