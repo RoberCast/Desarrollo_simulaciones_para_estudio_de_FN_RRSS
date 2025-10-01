@@ -20,6 +20,26 @@ https://repast.github.io/download.html
 
 Once the simulator is installed, create a Repast Simphony project named "FakeNewsSpreadSim" and copy the files from the FakeNewsSpreadSim folder of this repository as follows:
 
+```mermaid
+tree
+    FakeNewsSpreadSim
+    FakeNewsSpreadSim/src
+    FakeNewsSpreadSim/src/Agent.java
+    FakeNewsSpreadSim/src/AgentNetworkParams.java
+    FakeNewsSpreadSim/src/AgentScheduler.java
+    FakeNewsSpreadSim/src/AgentState.java
+    FakeNewsSpreadSim/src/CustomStyleAgentOGL2D.java
+    FakeNewsSpreadSim/src/FNSpreadSimBuilder.java
+    FakeNewsSpreadSim/src/JungNetworkGenerator.java
+    FakeNewsSpreadSim/src/ProbabilityParams.java
+    FakeNewsSpreadSim/batch
+    FakeNewsSpreadSim/batch/batch_params.xml
+    FakeNewsSpreadSim/src/FakeNewsSpreadSim.rs
+    FakeNewsSpreadSim/src/FakeNewsSpreadSim.rs/context.xml
+    FakeNewsSpreadSim/src/FakeNewsSpreadSim.rs/parameters.xml
+```
+
+    
 FakeNewsSpreadSim
     ├── src
     │    ├── Agent.java
