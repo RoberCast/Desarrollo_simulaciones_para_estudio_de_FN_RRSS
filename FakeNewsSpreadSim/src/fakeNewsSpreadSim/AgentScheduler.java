@@ -170,9 +170,7 @@ public class AgentScheduler
 			if(agent.getCurrentState() == AgentState.BELIEVER || agent.getCurrentState() == AgentState.FACT_CHECKER) {
 				double randomValue = agent.generateRandomValue(true);
 				if(randomValue < pParams.getForgettingRate()) {
-					if(agent.getNextState() == null) {
-						agent.setNextState(AgentState.SUSCEPTIBLE);
-					}
+					agent.setNextState(AgentState.SUSCEPTIBLE);
 				}
 			}
 		}
@@ -190,9 +188,7 @@ public class AgentScheduler
 			if(agent.getCurrentState() == AgentState.BELIEVER) {
 				double randomValue = agent.generateRandomValue(true);
 				if(randomValue < pParams.getVerifyingProbability()) {
-					if(agent.getNextState() == null) {
-						agent.setNextState(AgentState.FACT_CHECKER);
-					}
+					agent.setNextState(AgentState.FACT_CHECKER);
 				}
 			}
 		}

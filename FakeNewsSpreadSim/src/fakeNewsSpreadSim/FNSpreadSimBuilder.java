@@ -56,7 +56,7 @@ public class FNSpreadSimBuilder implements ContextBuilder<Object>
 	{
 		context.setId("FakeNewsSpreadSim");
 		
-		// Parameterizes and stores the number of agents of each type and the fixed statistics chosen in runtime
+		// Parameterize and store the number of agents of each type, the fixed statistics chosen at runtime and the number of ticks
 		Parameters params = RunEnvironment.getInstance().getParameters();
 		AgentNetworkParams anParams = new AgentNetworkParams(
 				params.getInteger("susceptible_count"),
@@ -70,10 +70,13 @@ public class FNSpreadSimBuilder implements ContextBuilder<Object>
 				params.getDouble("verifying_prob"),
 				params.getDouble("forgetting_rate")
 		);
-
+		
+		int ticks = params.getInteger("ticks");
+		
+		RunEnvironment.getInstance().endAt(ticks);		// The simulation ends in n ticks
 		int initialVertices = 4;	// The number of initial vertices or seeds to generate the network
 		
-		checkParameters(anParams, pParams);
+		checkParameters(anParams, pParams, ticks);
 
 		// Asigns the state of the initial vertices and build the JUNG network
 		assignSeedTypes(anParams, initialVertices);
@@ -114,14 +117,16 @@ public class FNSpreadSimBuilder implements ContextBuilder<Object>
 	 * 
 	 * @param anParams		An AgentNetworkParams object.
 	 * @param pParams		A ProbabilityParams object.
+	 * @param ticks			The number of simulation ticks.
 	 */
-	private void checkParameters(AgentNetworkParams anParams, ProbabilityParams pParams)
+	private void checkParameters(AgentNetworkParams anParams, ProbabilityParams pParams, int ticks)
 	{
 		checkAgentCounts(anParams.getSCount(), anParams.getBCount(), anParams.getFcCount());
 		checkStatistics(pParams.getCredibilityHoax(), "Hoax Credibility", false);
 		checkStatistics(pParams.getSpreadingRate(), "Spreading Rate", true);
 		checkStatistics(pParams.getVerifyingProbability(), "pVerify", true);
 		checkStatistics(pParams.getForgettingRate(), "pForget", true);
+		checkNumberOfTicks(ticks);
 	}
 	
 	/**
@@ -222,12 +227,12 @@ public class FNSpreadSimBuilder implements ContextBuilder<Object>
 	{
 		if(oneIsIncluded) {
 			if(value < 0 || value > 1) {
-				resetConfig("The value in " + statistics + " must be in the range [0,1].");
+				resetConfig("The value in " + statistics + " must be in the range [0,1]");
 			}
 		}
 		else {
 			if(value < 0 || value >= 1) {
-				resetConfig("The value in " + statistics + " must be in the range [0,1).");
+				resetConfig("The value in " + statistics + " must be in the range [0,1)");
 			}
 		}
 	}
@@ -242,17 +247,29 @@ public class FNSpreadSimBuilder implements ContextBuilder<Object>
 	private void checkAgentCounts(int sCount, int bCount, int fcCount)
 	{
 		if(sCount < 0 || bCount < 0 || fcCount < 0) {
-			resetConfig("The number of agents cannot be a negative number.");
+			resetConfig("The number of agents cannot be a negative number");
 		}
 		
 		if((sCount + bCount + fcCount) < 100) {
-			resetConfig("The total number of agents must be at least 100.");
+			resetConfig("The total number of agents must be at least 100");
 		}
 		
 		if((sCount > 0 && bCount == 0 && fcCount == 0) ||
 				(sCount == 0 && bCount > 0 && fcCount == 0) ||
 				(sCount == 0 && bCount == 0 && fcCount > 0)) {
-			resetConfig("At least two agent types must be greater than 0.");
+			resetConfig("At least two agent types must be greater than 0");
+		}
+	}
+	
+	/**
+	 * Checks if the number of ticks introduced by parameter is correct.
+	 * 
+	 * @param ticks		The number of simulation ticks.
+	 */
+	private void checkNumberOfTicks(int ticks)
+	{
+		if(ticks < 1 || ticks > 2000) {
+			resetConfig("The number of ticks must be greater than 0 and less or equal than 2000");
 		}
 	}
 	

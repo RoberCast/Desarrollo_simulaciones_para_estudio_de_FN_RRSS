@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+	<sweep runs="10">
+		<parameter name="believer_count" type="constant" constant_type="int" value="100"></parameter>
+		<parameter name="spreading_rate" type="constant" constant_type="double" value="0.7"></parameter>
+		<parameter name="ticks" type="constant" constant_type="int" value="300"></parameter>
+		<parameter name="factChecker_count" type="constant" constant_type="int" value="0"></parameter>
+		<parameter name="verifying_prob" type="constant" constant_type="double" value="0.149"></parameter>
+		<parameter name="susceptible_count" type="constant" constant_type="int" value="900"></parameter>
+		<parameter name="cred_hoax" type="constant" constant_type="double" value="0.596"></parameter>
+		<parameter name="forgetting_rate" type="constant" constant_type="double" value="0.13"></parameter>
+	</sweep>

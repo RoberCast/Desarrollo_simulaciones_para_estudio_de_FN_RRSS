@@ -1,0 +1,1 @@
+The output files from the Repast Simphony batch execution are placed in this directory.

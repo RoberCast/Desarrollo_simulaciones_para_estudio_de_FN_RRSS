@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<Scenario simphonyVersion="2.11.0">
-<repast.simphony.action.data_set context="FakeNewsSpreadSim" file="repast.simphony.action.data_set_0.xml" />
-<repast.simphony.action.console_sink context="FakeNewsSpreadSim" file="repast.simphony.action.console_sink_1.xml" />
-<repast.simphony.dataLoader.engine.ClassNameDataLoaderAction context="FakeNewsSpreadSim" file="repast.simphony.dataLoader.engine.ClassNameDataLoaderAction_2.xml" />
-<repast.simphony.action.time_series_chart context="FakeNewsSpreadSim" file="repast.simphony.action.time_series_chart_3.xml" />
-<repast.simphony.action.display context="FakeNewsSpreadSim" file="repast.simphony.action.display_4.xml" />
-</Scenario>
