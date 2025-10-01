@@ -1,4 +1,4 @@
-All files in this dataset folder are available on the following GitHub site:
+All necessary datasets are available on the following GitHub site:
 
 https://github.com/KaiDMML/FakeNewsNet
 
