@@ -52,7 +52,7 @@ https://ieeexplore.ieee.org/document/9260064/
 ### Validation methodology
 A. Gausen, W. Luk, and C. Guo. (2021, Jun.) Can we stop fake news? using agent-based
 modelling to evaluate countermeasures for misinformation on social media. Access:
-2025-08-14. [Online]. Available: https://workshop-proceedings.icwsm.org/pdf/2021 63.pdf
+2025-08-14. [Online]. Available: https://workshop-proceedings.icwsm.org/pdf/2021_63.pdf
 
 
 
