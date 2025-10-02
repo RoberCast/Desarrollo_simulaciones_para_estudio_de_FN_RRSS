@@ -43,7 +43,7 @@ FakeNewsSpreadSim
 ```
          
 The parameters.xml file contains the default model parameters. You can now run Repast Simphony in GUI mode (an single simulation) or in batch mode. To validate the model or fit it with real data, run the model in batch mode, choosing the "DataAnalyzer JAR/Resources 
-/repast simphony output" as the output folder. Follow the instructions in the "DataAnalyzer JAR/Resources/dataset/README.txt" file to select a valid dataset and place it in the "dataset" folder in that same path. To check which commands are valid in DataAnalyzer.jar, you must run the .jar file from the cmd with the "-h" option, this will display the help. Finally, DataAnalyzer will display the analysis result.
+/repast simphony output" as the output folder. Follow the instructions in the "DataAnalyzer JAR/Resources/dataset/README.txt" file to select a valid dataset and place it in the "dataset" folder in that same path. To check which commands are valid in DataAnalyzer, you must run the DataAnalyzer.jar file from the cmd with the "-h" option, this will display the help. Finally, DataAnalyzer will display the analysis result.
 
 ## Credits
 ### FakeNews dissemination model
