@@ -44,7 +44,15 @@ The parameters.xml file contains the default model parameters. You can now run R
 /repast simphony output" as the output folder. Follow the instructions in the "DataAnalyzer JAR/Resources/dataset/README.txt" file to select a valid dataset and place it in the "dataset" folder in that same path. To check which commands are valid in DataAnalyzer.jar, you must run the .jar file from the cmd with the "-h" option, this will display the help. Finally, DataAnalyzer will display the analysis result.
 
 ## Credits
-### ABSS Platform: 
+### News dissemination model
+E. Sulis and M. Tambuscio. (2020, Oct.) Simulation of misinformation spreading processes
+in social networks: an application with netlogo. Access: 2025-08-14. [Online]. Available:
+https://ieeexplore.ieee.org/document/9260064/ 
+
+### Validation methodology
+E. Sulis and M. Tambuscio. (2020, Oct.) Simulation of misinformation spreading processes
+in social networks: an application with netlogo. Access: 2025-08-14. [Online]. Available:
+https://ieeexplore.ieee.org/document/9260064/
 
 
 
