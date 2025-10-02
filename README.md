@@ -20,8 +20,7 @@ https://repast.github.io/download.html
 
 Once the simulator is installed, create a Repast Simphony project named "FakeNewsSpreadSim" and copy the files from the FakeNewsSpreadSim folder of this repository as follows:
 
-```mermaid
-tree
+```tree
     FakeNewsSpreadSim
     FakeNewsSpreadSim/src
     FakeNewsSpreadSim/src/Agent.java
@@ -39,7 +38,7 @@ tree
     FakeNewsSpreadSim/src/FakeNewsSpreadSim.rs/parameters.xml
 ```
 
-    
+```bash    
 FakeNewsSpreadSim
     ├── src
     │    ├── Agent.java
@@ -57,6 +56,7 @@ FakeNewsSpreadSim
     └── FakeNewsSpreadSim.rs
          ├── context.xml
          └── parameters.xml
+```
          
 The parameters.xml file contains the default model parameters. You can now run Repast Simphony in GUI mode (an single simulation) or in batch mode. To validate the model or compare it with real data, run the model in batch mode, choosing the "DataAnalyzer JAR/Resources 
 /repast simphony output" as the output folder. Follow the instructions in the "DataAnalyzer JAR/Resources/dataset/README.txt" file to select a valid dataset and place it in the "dataset" folder in that same path. To check for valid commands in DataAnalyzer.jar, you must run the .jar file from the cmd with the "-h" command; this will display the help. Un modelo será válido si NRMSE < 0.2
