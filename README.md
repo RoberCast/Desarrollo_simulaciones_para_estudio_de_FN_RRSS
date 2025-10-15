@@ -72,8 +72,8 @@ You can also use the following BibTeX entry:
 
 ```bibtex
 @misc{RoberCast2025,
-  author = {Roberto Castro},
-  title = {Desarrollo de simulaciones para el estudio de noticias falsas en redes sociales},
+  author = {Roberto Castillejo Embid},
+  title = {Desarrollo de simulaciones para el estudio de la difusión de noticias falsas (fake news) en redes sociales},
   year = {2025},
   publisher = {Zenodo},
   doi = {10.5281/zenodo.17360338},
