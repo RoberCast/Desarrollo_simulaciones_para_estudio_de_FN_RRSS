@@ -64,12 +64,20 @@ modelling to evaluate countermeasures for misinformation on social media. Access
 2025-08-14. [Online]. Available: https://workshop-proceedings.icwsm.org/pdf/2021_63.pdf
 
 ## How to cite this work
-If you use this project in your research or work, you can cite it as:
-@misc{RoberCast2025FakeNewsRepo,
-author = {Roberto Castillejo Embid},
-title = {Desarrollo de simulaciones para el estudio de la difusión de noticias falsas en redes sociales},
-year = {2025},
-howpublished = {\url{https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS}}
+If you use this project, please cite it using the DOI:
+
+[https://doi.org/10.5281/zenodo.17360338](https://doi.org/10.5281/zenodo.17360338)
+
+You can also use the following BibTeX entry:
+
+```bibtex
+@misc{RoberCast2025,
+  author = {Roberto Castro},
+  title = {Desarrollo de simulaciones para el estudio de noticias falsas en redes sociales},
+  year = {2025},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.17360338},
+  url = {https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS}
 }
 
 
