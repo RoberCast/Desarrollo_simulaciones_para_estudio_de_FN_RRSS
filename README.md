@@ -45,6 +45,13 @@ FakeNewsSpreadSim
 The parameters.xml file contains the default model parameters. You can now run Repast Simphony in GUI mode (an single simulation) or in batch mode. To validate the model or fit it with real data, run the model in batch mode, choosing the "DataAnalyzer JAR/Resources 
 /repast simphony output" as the output folder. Follow the instructions in the "DataAnalyzer JAR/Resources/dataset/README.txt" file to select a valid dataset and place it in the "dataset" folder in that same path. To check which commands are valid in DataAnalyzer, you must run the DataAnalyzer.jar file from the cmd with the "-h" option, this will display the help. Finally, DataAnalyzer will display the analysis result.
 
+## License
+This project is licensed under the **GNU General Public License v3 (GPLv3)**.
+
+© 2025 Roberto Castillejo Embid.  
+This repository contains original code developed for academic purposes.  
+You may freely use, modify, and redistribute it under the same license terms (GPLv3).
+
 ## Credits
 ### FakeNews dissemination model
 E. Sulis and M. Tambuscio. (2020, Oct.) Simulation of misinformation spreading processes
@@ -55,6 +62,15 @@ https://ieeexplore.ieee.org/document/9260064/
 A. Gausen, W. Luk, and C. Guo. (2021, Jun.) Can we stop fake news? using agent-based
 modelling to evaluate countermeasures for misinformation on social media. Access:
 2025-08-14. [Online]. Available: https://workshop-proceedings.icwsm.org/pdf/2021_63.pdf
+
+## How to cite this work
+If you use this project in your research or work, you can cite it as:
+@misc{RoberCast2025FakeNewsRepo,
+author = {Roberto Castillejo Embid},
+title = {Desarrollo de simulaciones para el estudio de la difusión de noticias falsas en redes sociales},
+year = {2025},
+howpublished = {\url{https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS}}
+}
 
 
 
