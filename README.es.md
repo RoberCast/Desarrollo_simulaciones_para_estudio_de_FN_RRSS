@@ -48,7 +48,6 @@ El archivo parameters.xml contiene los parámetros predeterminados del modelo. P
 Este proyecto está licenciado bajo la **Licencia Pública General GNU v3 (GPLv3)**.
 
 © 2025 Roberto Castillejo Embid.
-
 Este repositorio contiene código original desarrollado con fines académicos.
 Puede usarlo, modificarlo y redistribuirlo libremente bajo los mismos términos de la licencia (GPLv3).
 
