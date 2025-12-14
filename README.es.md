@@ -44,6 +44,20 @@ FakeNewsSpreadSim
 
 El archivo parameters.xml contiene los parámetros predeterminados del modelo. Puede ejecutar Repast Simphony en modo GUI (una simulación única) o por lotes. Para validar el modelo o ajustarlo con datos reales, ejecútelo por lotes y seleccione "DataAnalyzer JAR/Resources /repast simphony output" como carpeta de salida. Siga las instrucciones del archivo "DataAnalyzer JAR/Resources/dataset/README.txt" para seleccionar un conjunto de datos válido y colocarlo en la carpeta "dataset", en la misma ruta. Para comprobar qué comandos son válidos en DataAnalyzer, debe ejecutar el archivo DataAnalyzer.jar desde el comando con la opción "-h", esto mostrará la ayuda. Finalmente, DataAnalyzer mostrará el resultado del análisis.
 
+## Imágenes de demostración
+A continuación, se muestran imágenes del funcionamiento del modelo de difusión de noticias SBFC en Repast Simphony y de la herramienta de validación DataAnalyzer.
+
+* Ejecución del modelo de difusión de noticias SBFC en Repast Simphony.
+![modelo](Images/FakeNewsSpreadSimRun.png)
+  
+* Estado de los agentes tras una simulación.
+
+![estado_agentes](Images/StateOfAgents.png)
+  
+* Resultado de la validación del ajuste del modelo a una noticia real a partir de un conjunto de datos reales.
+
+![DataAnalyzer](Images/DataAnalyzerResult.png)  
+
 ## Licencia
 Este proyecto está licenciado bajo la **Licencia Pública General GNU v3 (GPLv3)**.
 
