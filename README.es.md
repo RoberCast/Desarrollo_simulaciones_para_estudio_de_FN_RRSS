@@ -48,6 +48,7 @@ El archivo parameters.xml contiene los parámetros predeterminados del modelo. P
 A continuación, se muestran imágenes del funcionamiento del modelo de difusión de noticias SBFC en Repast Simphony y de la herramienta de validación DataAnalyzer.
 
 * Ejecución del modelo de difusión de noticias SBFC en Repast Simphony.
+  
 ![modelo](Images/FakeNewsSpreadSimRun.png)
   
 * Estado de los agentes tras una simulación.
