@@ -45,6 +45,21 @@ FakeNewsSpreadSim
 The parameters.xml file contains the default model parameters. You can now run Repast Simphony in GUI mode (an single simulation) or in batch mode. To validate the model or fit it with real data, run the model in batch mode, choosing the "DataAnalyzer JAR/Resources 
 /repast simphony output" as the output folder. Follow the instructions in the "DataAnalyzer JAR/Resources/dataset/README.txt" file to select a valid dataset and place it in the "dataset" folder in that same path. To check which commands are valid in DataAnalyzer, you must run the DataAnalyzer.jar file from the cmd with the "-h" option, this will display the help. Finally, DataAnalyzer will display the analysis result.
 
+## Demo
+Below are images of the execution of the SBFC news diffusion model in Repast Symphony and the execution of the DataAnalyzer validation tool.
+
+* Execution of the SBFC news diffusion model in Repast Symphony.
+  
+![modelo](Images/FakeNewsSpreadSimRun.png)
+  
+* Agent status after a simulation.
+
+![estado_agentes](Images/StateOfAgents.png)
+  
+* Result of validating the model fit to a real news story using a real dataset.
+
+![DataAnalyzer](Images/DataAnalyzerResult.png)  
+
 ## License
 This project is licensed under the **GNU General Public License v3 (GPLv3)**.
 
