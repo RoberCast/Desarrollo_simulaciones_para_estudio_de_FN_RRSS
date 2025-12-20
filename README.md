@@ -46,9 +46,9 @@ The parameters.xml file contains the default model parameters. You can now run R
 /repast simphony output" as the output folder. Follow the instructions in the "DataAnalyzer JAR/Resources/dataset/README.txt" file to select a valid dataset and place it in the "dataset" folder in that same path. To check which commands are valid in DataAnalyzer, you must run the DataAnalyzer.jar file from the cmd with the "-h" option, this will display the help. Finally, DataAnalyzer will display the analysis result.
 
 ## Demo
-Below are images of the execution of the SBFC news diffusion model in Repast Symphony and the execution of the DataAnalyzer validation tool.
+Below are images of the execution of the SBFC news diffusion model in Repast Simphony and the execution of the DataAnalyzer validation tool.
 
-* Execution of the SBFC news diffusion model in Repast Symphony.
+* Execution of the SBFC news diffusion model in Repast Simphony.
   
 ![modelo](Images/FakeNewsSpreadSimRun.png)
   
