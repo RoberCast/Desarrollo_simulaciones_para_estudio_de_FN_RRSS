@@ -25,14 +25,15 @@ Una vez instalado el simulador, cree un proyecto Repast Simphony llamado "FakeNe
 ```bash    
 FakeNewsSpreadSim
     ├── src
-    │    ├── Agent.java
-    |    ├── AgentNetworkParams.java
-    |    ├── AgentScheduler.java
-    |    ├── AgentState.java
-    |    ├── CustomStyleAgentOGL2D.java
-    |    ├── FNSpreadSimBuilder.java
-    |    ├── JungNetworkGenerator.java
-    │    └── ProbabilityParams.java
+    │    └── fakeNewsSpreadSim
+    │          ├── Agent.java
+    |          ├── AgentNetworkParams.java
+    |          ├── AgentScheduler.java
+    |          ├── AgentState.java
+    |          ├── CustomStyleAgentOGL2D.java
+    |          ├── FNSpreadSimBuilder.java
+    |          ├── JungNetworkGenerator.java
+    │          └── ProbabilityParams.java
     |
     ├── batch
     |    └── batch_params.xml
