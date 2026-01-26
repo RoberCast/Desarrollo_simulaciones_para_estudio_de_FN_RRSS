@@ -71,7 +71,7 @@ En la siguiente ventana, se añade *Agent* y se hace click en *Next*.
   <img src="../Images/Simulator_setup/Displays2.png" alt="FakeNewsSpreadSim Model." width="60%"/>
 </p>
 
-En la siguiente ventana, en *Style Class*, se deja la opción *fakeNewsSpreadSim.CustomStyleAgentOGL2D* y se hace click en *Next*.
+En la siguiente ventana, en *Style Class*, se elige la opción *fakeNewsSpreadSim.CustomStyleAgentOGL2D* y se hace click en *Next*.
 
 <p align="center">
   <img src="../Images/Simulator_setup/Displays3.png" alt="FakeNewsSpreadSim Model." width="60%"/>
