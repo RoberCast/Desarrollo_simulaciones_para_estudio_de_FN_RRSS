@@ -4,7 +4,7 @@ Después de crear el proyecto de Repast Simphony y tras colocar los archivos ind
 1. **Ejecución del simulador en modo GUI (ejecución única)**. En el IDE Eclipse que se ha instalado con Repast Simphony, se ejecuta *FakeNewsSpreadSim Model*. Se abre el simulador en modo GUI y se procede a su configuración.
   
 <p align="center">
-  <img src="../Images/Simulator_setup/EclipseRun.png" alt="FakeNewsSpreadSim Model." width="50%"/>
+  <img src="../Images/Simulator_setup/EclipseRun.png" alt="FakeNewsSpreadSim Model." width="60%"/>
 </p>
 
 2. **Pestaña Scenario Tree**. Con el simulador abierto, se hace click en la pestaña *Scenario Tree*, que contiene la configuración de la simulación. Los apartados que se pueden configurar son: *Charts*, *Data Loaders*, *Data Sets*, *Displays*, *Text Sinks* y *User Panel*. Se configuran todos ellos excepto *User Panel*.
