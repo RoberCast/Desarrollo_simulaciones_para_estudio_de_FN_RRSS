@@ -39,9 +39,9 @@ En la siguiente ventana, se pueden observar las pestañas *Standard Sources*, *M
 
 En la pestaña *Method Data Sources* se añade lo siguiente haciendo click en *Add* y haciendo doble click en cada campo para rellenar cada uno de ellos:
 
-  * *Source Name* = Susceptible count, *Agent Type* = agent, *Method* = isSusceptible y *Aggregate Operation* = sum.
-  * *Source Name* = Believer count, *Agent Type* = agent, *Method* = isBeliever y *Aggregate Operation* = sum.
-  * *Source Name* = FactChecker count, *Agent Type* = agent, *Method* = isFactChecker y *Aggregate Operation* = sum.
+  * *Source Name* = Susceptible count, *Agent Type* = Agent, *Method* = isSusceptible y *Aggregate Operation* = sum.
+  * *Source Name* = Believer count, *Agent Type* = Agent, *Method* = isBeliever y *Aggregate Operation* = sum.
+  * *Source Name* = FactChecker count, *Agent Type* = Agent, *Method* = isFactChecker y *Aggregate Operation* = sum.
 
 <p align="center">
   <img src="../Images/Simulator_setup/DataSets3.png" alt="FakeNewsSpreadSim Model." width="60%"/>
