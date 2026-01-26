@@ -25,4 +25,38 @@ La siguiente ventana no se modifica y se hace click en *Next* y después en *Fin
   <img src="../Images/Simulator_setup/DataLoader2.png" alt="FakeNewsSpreadSim Model." width="60%"/>
 </p>
 
-4. **Data Sets**. 
+4. **Data Sets**. Se hace click con el botón derecho en *Data Sets* y después se hace click en *Add Data Set*. En la siguiente ventana se le da un nombre al dataset, por ejemplo, *Social Network Data Set*, y se deja *Aggregate* como tipo de dataset. Se hace click en *Next*.
+
+<p align="center">
+  <img src="../Images/Simulator_setup/DataSets1.png" alt="FakeNewsSpreadSim Model." width="60%"/>
+</p>
+
+En la siguiente ventana, se pueden observar las pestañas *Standard Sources*, *Method Data Sources* y *Custom Data Sources*. En la pestaña *Standard Sources* se deja marcada la opción *Tick Count*. 
+
+<p align="center">
+  <img src="../Images/Simulator_setup/DataSets2.png" alt="FakeNewsSpreadSim Model." width="60%"/>
+</p>
+
+En la pestaña *Method Data Sources* se añade lo siguiente haciendo click en *Add* y haciendo click en cada campo para realizar la selección:
+
+  * *Source Name* = Susceptible count, *Agent Type* = agent, *Method* = isSusceptible y *Aggregate Operation* = sum.
+  * *Source Name* = Believer count, *Agent Type* = agent, *Method* = isBeliever y *Aggregate Operation* = sum.
+  * *Source Name* = FactChecker count, *Agent Type* = agent, *Method* = isFactChecker y *Aggregate Operation* = sum.
+
+<p align="center">
+  <img src="../Images/Simulator_setup/DataSets3.png" alt="FakeNewsSpreadSim Model." width="60%"/>
+</p>
+
+La pestaña *Custom Data Sources* se deja como está y se hace click en *Next*.
+
+<p align="center">
+  <img src="../Images/Simulator_setup/DataSets4.png" alt="FakeNewsSpreadSim Model." width="60%"/>
+</p>
+
+La siguiente ventana se deja como está y se hace click en *Finish*.
+
+<p align="center">
+  <img src="../Images/Simulator_setup/DataSets5.png" alt="FakeNewsSpreadSim Model." width="60%"/>
+</p>
+
+5. **Displays**. Se hace click con el botón derecho en *Displays* y después se hace click en *Add Display*.
