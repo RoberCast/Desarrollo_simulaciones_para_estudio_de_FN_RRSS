@@ -50,15 +50,15 @@ A continuación, se muestran imágenes del funcionamiento del modelo de difusió
 
 * Ejecución del modelo de difusión de noticias SBFC en Repast Simphony.
   
-![modelo](Images/FakeNewsSpreadSimRun.png)
+![modelo](Images/Demo/FakeNewsSpreadSimRun.png)
   
 * Estado de los agentes tras una simulación.
 
-![estado_agentes](Images/StateOfAgents.png)
+![estado_agentes](Images/Demo/StateOfAgents.png)
   
 * Resultado de la validación del ajuste del modelo a una noticia real a partir de un conjunto de datos reales.
 
-![DataAnalyzer](Images/DataAnalyzerResult.png)  
+![DataAnalyzer](Images/Demo/DataAnalyzerResult.png)  
 
 ## Licencia
 Este proyecto está licenciado bajo la **Licencia Pública General GNU v3 (GPLv3)**.
