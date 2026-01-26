@@ -51,15 +51,15 @@ Below are images of the execution of the SBFC news diffusion model in Repast Sim
 
 * Execution of the SBFC news diffusion model in Repast Simphony.
   
-![modelo](Images/FakeNewsSpreadSimRun.png)
+![modelo](Images/Demo/FakeNewsSpreadSimRun.png)
   
 * Agent status after a simulation.
 
-![estado_agentes](Images/StateOfAgents.png)
+![estado_agentes](Images/Demo/StateOfAgents.png)
   
 * Result of validating the model fit to a real news story using a real dataset.
 
-![DataAnalyzer](Images/DataAnalyzerResult.png)  
+![DataAnalyzer](Images/Demo/DataAnalyzerResult.png)  
 
 ## License
 This project is licensed under the **GNU General Public License v3 (GPLv3)**.
