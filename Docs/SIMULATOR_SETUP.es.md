@@ -10,7 +10,7 @@ Después de crear el proyecto de Repast Simphony y tras colocar los archivos ind
 2. **Pestaña Scenario Tree**. Con el simulador abierto, se pincha en la pestaña *Scenario Tree*, que contiene la configuración de la simulación. Los apartados que se pueden configurar son: *Charts*, *Data Loaders*, *Data Sets*, *Displays*, *Text Sinks* y *User Panel*. Se configurarán todos ellos excepto *User Panel*.
 
 <p align="center">
-  <img src="../Images/Simulator_setup/ScenarioTree.png" alt="FakeNewsSpreadSim Model." width="50%"/>
+  <img src="../Images/Simulator_setup/ScenarioTree.png" alt="FakeNewsSpreadSim Model." width="35%"/>
 </p>
 
 3. **Data Loaders**.
