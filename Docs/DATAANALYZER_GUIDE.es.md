@@ -13,7 +13,7 @@ Este parámetro consiste en el valor `-h`. La ejecución muestra la ayuda. Si no
 ## Ejecución con dos parámetros
 Esta ejecución se usa para la validación del modelo de difusión de noticias SBFC, que recibe los datos de la salida de la ejecución *batch* del simulador y calcula el NRMSE. Si el valor calculado es menor que 0.2 quiere decir que el modelo será válido. Es decir, que se ajusta al modelo de referencia. Los parámetros que hay que introducir son, en este orden, el archivo de parámetros de ejecución y el de resultado de la simulación de la ejecución *batch* del simulador.
 
-  La ejecución muestra un error si no son los archivos correctos, no están en el orden indicado o se les ha cambiado el nombre. Tras la ejecución se muestra el resultado del análisis, donde se pueden ver los parámetros de la simulación, número de *ticks*, número de ejecuciónes, el promedi ode agentes en cada estado después de $n$ ejecuciones y el resultado del análisis. Se puede ver un ejemplo en la siguiente figura.
+  La ejecución muestra un error si no son los archivos correctos, no están en el orden indicado o se les ha cambiado el nombre. Tras la ejecución se muestra el resultado del análisis, donde se pueden ver los parámetros de la simulación, número de *ticks*, número de ejecuciones, el promedio de agentes en cada estado después de $n$ ejecuciones y el resultado del análisis. Se puede ver un ejemplo en la siguiente figura.
 
   <p align="center">
     <img src="../Images/DataAnalyzer guide/2Parameter.png" alt="FakeNewsSpreadSim Model." width="60%"/>
