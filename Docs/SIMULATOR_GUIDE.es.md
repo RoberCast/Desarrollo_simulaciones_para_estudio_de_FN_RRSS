@@ -91,7 +91,7 @@ Este modo de ejecución sirve para realizar la validación del modelo de difusi�
     <img src="../Images/Simulator guide/ExecuteBatch.png" alt="FakeNewsSpreadSim Model." width="35%"/>
   </p>
 
-Cuando termine la ejecución *batch* se habrán guardado los archivos de salida con los formatos `Model_Output_Data.[año].[mes].[dia].[hora].batch_param_map.txt` y `Model_Output_Data.[año].[mes].[dia].[hora].txt` cuyos formatos son `["run","randomSeed","believer_count","spreadint_rate","ticks","factChecker_count","verifying_prob","susceptible_count","cred_hoax","forgetting_rate"]` y `["run","tick","Susceptible Count","Believer Count","FactChecker Count"]` respectivamente. 
+Cuando termine la ejecución *batch* se habrán guardado los archivos de salida con los nombres `Model_Output_Data.[año].[mes].[dia].[hora].batch_param_map.txt` y `Model_Output_Data.[año].[mes].[dia].[hora].txt` cuyos formatos son `["run","randomSeed","believer_count","spreadint_rate","ticks","factChecker_count","verifying_prob","susceptible_count","cred_hoax","forgetting_rate"]` y `["run","tick","Susceptible Count","Believer Count","FactChecker Count"]` respectivamente. 
 
 Un aspecto importante es que **el nombre de estos archivos debe respetarse**.
 
