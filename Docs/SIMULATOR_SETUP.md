@@ -1,5 +1,5 @@
 # Simulator setup
-After creating the Repast Symphony project and placing the files indicated in the [README.md](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/README.md#instructions) file in their corresponding locations, proceed to complete the simulator configuration. This process can be viewed in a video at the end of this document. The steps for the simulator configuration process are as follows:
+After creating the Repast Symphony project and placing the files indicated in the [README.md](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/README.md#instructions) file in their corresponding locations, proceed to complete the simulator configuration. This process can be viewed in a [video](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/Docs/SIMULATOR_SETUP.md#simulator-setup-video) at the end of this document. The steps for the simulator configuration process are as follows:
 
 1. **Running the simulator in GUI mode (single run)**. In the Eclipse IDE installed with Repast Symphony, run *FakeNewsSpreadSim Model*. Open the simulator in GUI mode and proceed with its configuration.
 
