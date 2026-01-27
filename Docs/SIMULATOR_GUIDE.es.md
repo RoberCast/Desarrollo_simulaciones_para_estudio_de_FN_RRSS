@@ -70,25 +70,25 @@ Este modo de ejecución sirve para realizar la validación del modelo de difusi�
 1. **Ejecución en IDE Eclipse**.  En el IDE Eclipse que se ha instalado con Repast Simphony, se ejecuta *Batch FakeNewsSpreadSim Model*. Entonces, aparece la ventana de ejecución *batch* del simulador. En dicha ventana se pueden ver las pestañas *Model*, *Batch Parameters*, *Hosts* y *Console*. En el caso de esta guía sólo se tienen en cuenta las dos primeras. 
 
   <p align="center">
-    <img src="../Images/Simulator guide/BatchRun.png" alt="FakeNewsSpreadSim Model." width="40%"/>
+    <img src="../Images/Simulator guide/BatchRun.png" alt="FakeNewsSpreadSim Model." width="50%"/>
   </p>
   
 2. **Pestaña Model**. En esta pestaña, se elige la salida de la simulación, que consiste en un archivo de parámetros del modelo y una salida de ejecución *batch*. Si se deja por defecto la ruta de *Output Directory*, ambos archivos se guardan en la carpeta `/FakeNewsSpreadSim/output`. Para el caso de esta guía se hace click en *Browse* y se elige la ruta donde guarda estos archivos el analizador de datos, *DataAnalyzer*.
 
   <p align="center">
-    <img src="../Images/Simulator guide/ModelTab.png" alt="FakeNewsSpreadSim Model." width="50%"/>
+    <img src="../Images/Simulator guide/ModelTab.png" alt="FakeNewsSpreadSim Model." width="70%"/>
   </p>
   
 3. **Pestaña Batch Parameters**. En esta pestaña se podrían cambiar los valores de los parámetros del modelo, pero hay un problema a la hora de introducir valores decimales, por lo tanto, la modificación de los valores de los parámetros se hace directamente en el archivo *batch_params.xml*. En este archivo se pueden modificar el número de ejecuciones en lote, el número de pasos de la simulación, el número de agentes inicial para cada estado y las probabilidades del modelo.
 
   <p align="center">
-    <img src="../Images/Simulator guide/BatchParametersTab.png" alt="FakeNewsSpreadSim Model." width="50%"/>
+    <img src="../Images/Simulator guide/BatchParametersTab.png" alt="FakeNewsSpreadSim Model." width="70%"/>
   </p>
   
 4. **Iniciar la simulación Batch**. Una vez se han modificado y guardado los valores de los parámetros de la ejecución *batch* y seleccionado la ruta donde se guardan los archivos de salida, se hace click en el botón *Execute Batch Runs* indicado con una flecha roja en la imagen.
 
   <p align="center">
-    <img src="../Images/Simulator guide/ExecuteBatch.png" alt="FakeNewsSpreadSim Model." width="40%"/>
+    <img src="../Images/Simulator guide/ExecuteBatch.png" alt="FakeNewsSpreadSim Model." width="35%"/>
   </p>
 
 Cuando termine la ejecución *batch* se habrán guardado los archivos de salida con los formatos `Model_Output_Data.[año].[mes].[dia].[hora].batch_param_map.txt´ y `Model_Output_Data.[año].[mes].[dia].[hora].txt` cuyos formatos son `["run","randomSeed","believer_count","spreadint_rate","ticks","factChecker_count","verifying_prob","susceptible_count","cred_hoax","forgetting_rate"] y `["run","tick","Susceptible Count","Believer Count","FactChecker Count"]` respectivamente. 
