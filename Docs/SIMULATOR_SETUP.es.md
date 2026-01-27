@@ -83,7 +83,7 @@ En la siguiente ventana no se cambia nada y se hace click en *Next*.
   <img src="../Images/Simulator_setup/Displays4.png" alt="FakeNewsSpreadSim Model." width="60%"/>
 </p>
 
-En la siguiente ventana, se deja la opción *repast.simphony.visualizationOGL2D.DefaultEdgeStyleOGL2D* y se hace click en el boton que se encuentra justo a la derecha de la opción anterior y que sirve para editar el estilo, en este caso de los vértices de la red. En la opción *Edge Thickness* se define *Value* = 0.5 y se cambia el color a gris (por defecto es verde), se hace click en *OK* y después se hace click en *Next*.
+En la siguiente ventana, se deja la opción *repast.simphony.visualizationOGL2D.DefaultEdgeStyleOGL2D* y se hace click en el boton que se encuentra justo a la derecha de la opción anterior y que sirve para editar el estilo, en este caso de las aristas de la red. En la opción *Edge Thickness* se define *Value* = 0.5 y se cambia el color a gris (por defecto es verde), se hace click en *OK* y después se hace click en *Next*.
 
 <p align="center">
   <img src="../Images/Simulator_setup/Displays5.png" alt="FakeNewsSpreadSim Model." width="60%"/>
