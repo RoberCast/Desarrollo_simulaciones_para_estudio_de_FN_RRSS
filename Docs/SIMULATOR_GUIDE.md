@@ -1,5 +1,5 @@
 # Simulator guide
-With the simulator properly configured (see the [SIMULATOR_SETUP.md](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/Docs/SIMULATOR_SETUP.md#simulator-setup) document), we will now explain how the simulator works. There are two simulation modes: GUI mode, for a single simulation, and batch mode, which runs $n$ times. Each of these modes is explained below.
+With the simulator properly configured, see the [SIMULATOR_SETUP.md](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/Docs/SIMULATOR_SETUP.md#simulator-setup) document, we will now explain how the simulator works. There are two simulation modes: GUI mode, for a single simulation, and batch mode, which runs $n$ times. Each of these modes is explained below.
 
 ## GUI mode simulation
 This execution mode consists of running the simulation of the SBFC news diffusion model implemented through a GUI only once. This method allows you to observe how the agent network changes as the simulation progresses and also to view the graph generated with the agent state values; that is, at time $t$, you would see the number of agents in each possible state. This execution serves to demonstrate that the simulated model behaves the same way as the reference model. To execute this simulation mode, follow these steps:
