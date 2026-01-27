@@ -8,7 +8,7 @@ Este modo de ejecución consiste en ejecutar la simulación del modelo de difusi
 1. **Ejecución en IDE Eclipse**. En el IDE Eclipse que se ha instalado con Repast Simphony, se ejecuta *FakeNewsSpreadSim Model*. Esto abre la ventana del simulador.
 
   <p align="center">
-    <img src="../Images/Simulator_setup/EclipseRun.png" alt="FakeNewsSpreadSim Model." width="60%"/>
+    <img src="../Images/Simulator setup/EclipseRun.png" alt="FakeNewsSpreadSim Model." width="60%"/>
   </p>
 
 2. **Introducción de los parámetros de entrada**. En la pestaña *Parameters* se encuentran los parámetros de entrada del modelo de difusión de noticias SBFC utilizado. A continuación, se explica cada uno de ellos.
