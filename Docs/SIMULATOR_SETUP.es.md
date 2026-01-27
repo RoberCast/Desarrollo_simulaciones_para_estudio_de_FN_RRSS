@@ -138,6 +138,8 @@ Para finalizar la configuración, es importante que se haga click en el icono de
 ## Video de configuración del simulador
 Aquí se muestra un video del proceso de configuración del simulador visto anteriormente.
 
-https://github.com/user-attachments/assets/0cc690c0-ad03-492c-a4d9-8881288ecdb1
+https://github.com/user-attachments/assets/e15e03fc-b29b-4ee4-ab1c-15c2c11c9eba
+
+
 
 
