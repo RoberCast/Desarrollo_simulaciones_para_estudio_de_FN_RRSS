@@ -27,17 +27,17 @@ FakeNewsSpreadSim
     ├── src
     │    └── fakeNewsSpreadSim
     │          ├── Agent.java
-    |          ├── AgentNetworkParams.java
-    |          ├── AgentScheduler.java
-    |          ├── AgentState.java
-    |          ├── CustomStyleAgentOGL2D.java
-    |          ├── FNSpreadSimBuilder.java
-    |          ├── JungNetworkGenerator.java
+    │          ├── AgentNetworkParams.java
+    │          ├── AgentScheduler.java
+    │          ├── AgentState.java
+    │          ├── CustomStyleAgentOGL2D.java
+    │          ├── FNSpreadSimBuilder.java
+    │          ├── JungNetworkGenerator.java
     │          └── ProbabilityParams.java
-    |
+    │
     ├── batch
-    |    └── batch_params.xml
-    |
+    │    └── batch_params.xml
+    │
     └── FakeNewsSpreadSim.rs
          ├── context.xml
          └── parameters.xml
