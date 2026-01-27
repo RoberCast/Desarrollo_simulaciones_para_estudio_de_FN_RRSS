@@ -17,8 +17,8 @@ Con el simulador debidamente configurado, ver el documento [SIMULATOR_SETUP.es.m
   * *Agent - Susceptible Count*. Es el número de agentes de tipo *Susceptible* que existen en un inicio en la red de agentes. En la visualización tiene color gris.
   * *Agent - Believer Count*. Es el número de agentes de tipo *Believer* que existen en un inicio en la red de agentes. En la visualización tiene color azul.
   * *Agent - FactChecker Count*. Es el número de agentes de tipo *FactChecker* que existen en un inicio en la red de agentes. En la visualización tiene color rojo.
-  * *Hoaxes - Alpha - Hoax Credibility*. Corresponde a la probabilidad de credibilidad del bulo. Debe ser un número en el intervalo $\alpha \in [0,1).
-  * *Hoaxes - Beta - Spreading Rate*. Corresponde a la probabilidad de la tasa de difusión. Debe ser un número en el intervalo $\beta \in [0,1].
+  * *Hoaxes - Alpha - Hoax Credibility*. Corresponde a la probabilidad de credibilidad del bulo. Debe ser un número en el intervalo $\alpha \in [0,1)$.
+  * *Hoaxes - Beta - Spreading Rate*. Corresponde a la probabilidad de la tasa de difusión. Debe ser un número en el intervalo $\beta \in [0,1]$.
   * *Hoaxes - pVerify*. Corresponde a la probabilidad de verificación, $p_v$, y es un número en el intervalo $p_v \in [0,1]$.
   * *Hoaxes - pForget*. Corresponde a la probabilidad de olvido, $p_f$, y es un número en el intervalo $p_f \in [0,1]$.
 
