@@ -26,4 +26,16 @@ Otro aspecto a tener en cuenta es que el número total de agentes debe ser al me
 
 Por otro lado, los valores de los parámetros que vienen por defecto corresponden a los valores observados en el modelo de referencia. Estos valores se pueden modificar, teniendo en cuenta que, si se hace click en el icono de guardar (💾) tras modificarlos, se perderán los valores iniciales correspondientes al modelo de referencia. No se perderán si no se hace click en dicho icono.
 
-  * 
+  * **Cargar la simulación**. Se hace click en el botón *Initialize Run* indicado con una flecha roja en la imagen. Esto hace que se cargue la simulación y que aparezca el botón *Reset* en la botonera anterior. Se pueden observar dos pestañas: *Display* y *State of Agents*. La pestaña *Display* muestra la red de agentes con el algoritmo *Barabási-Albert*, y la pestaña *State of Agents* muestra el gráfico, al inicio vacío. Tanto la red como el gráfico van cambiando a lo largo de la simulación.
+
+
+
+* **Inicio de la simulación**. Para comenzar la simulación, se hace click en el botón *Start Run* indicado con una flecha roja en la imagen. Es posible pausar la simulación haciendo click en el botón *Pause* que sustituye al botón anterior mientras la ejecución de la simulación está en marcha. Se podrá reiniciar la simulación haciendo click en el botón *Reset* indicado con una flecha azul en la imagen.
+
+
+
+*  **Fin de la simulación**. Cuando se llega al número de pasos de simulación o *ticks* definidos en el parámetro correspondiente, la simulación acaba. La red ha cambiado y se puede visualizar el gráfico como se muestra en las imágenes. Además, se genera un archivo .txt con el formato `Model_Output_Data.[año].[mes].[dia].[hora].txt` en el que los datos tienen la forma `["tick","Susceptible Count","Believer Count","FactChecker Count"]`.
+
+
+
+*  **Repetir la simulación**. Para repetir la simulación, los pasos que hay que seguir son: hacer click en el bótón *Reset*, cambiar los parámetros si se desea, hacer click en el botón *Initialize Run* y hacer click en el botón *Start Run*.
