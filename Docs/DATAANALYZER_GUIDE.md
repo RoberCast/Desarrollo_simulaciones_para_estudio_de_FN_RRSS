@@ -1,7 +1,7 @@
 # Data Analyzer Guide, DataAnalyzer
 The data analyzer uses the previously adopted validation methodology to validate the results of the SBFC news diffusion model simulation. This methodology involves running the simulation $n$ times, calculating the mean number of agents in each possible state, and finding the root mean square error (NRMSE). If NRMSE < 0.2, then the model fit is considered valid.
 
-After placing the files and folder tree as indicated in the file [README.md](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/README.md), and after running the simulator in batch mode (see the file [SIMULATOR_GUIDE.md](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/Docs/SIMULATOR_GUIDE.md), the data analyzer is executed from the command line (cmd) using the syntax `java -jar DataAnalyzer.jar [parameters]`. The DataAnalyzer execution commands are explained below.
+After placing the files and folder tree as indicated in the file [README.md](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/README.md), and after running the simulator in batch mode, see the file [SIMULATOR_GUIDE.md](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/Docs/SIMULATOR_GUIDE.md), the data analyzer is executed from the command line (cmd) using the syntax `java -jar DataAnalyzer.jar [parameters]`. The DataAnalyzer execution commands are explained below.
 
 ## Execution with one parameter
 This parameter consists of the value `-h`. The execution displays the help. If this value is not used, the analyzer displays a parameter error. An example can be seen in the figure.
