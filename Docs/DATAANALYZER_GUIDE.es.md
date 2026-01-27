@@ -6,7 +6,7 @@ Después de colocar los archivos y el árbol de carpetas como se indica en el ar
 1. **Ejecución con un parámetro**. Este parámetro consiste en el valor `-h`. La ejecución muestra la ayuda. Si no es este valor el analizador muestra un error de parámetros. Se puede ver un ejemplo en la figura.
 
   <p align="center">
-    <img src="../Images/DataAnalyzer guide/1Parameter.png" alt="FakeNewsSpreadSim Model." width="60%"/>
+    <img src="../Images/DataAnalyzer guide/1Parameter.png" alt="FakeNewsSpreadSim Model." width="90%"/>
   </p>
 
 2. **Ejecución con dos parámetros**. Esta ejecución se usa para la validación del modelo de difusión de noticias SBFC, que recibe los datos de la salida de la ejecución *batch* del simulador y calcula el NRMSE. Si el valor calculado es menor que 0.2 quiere decir que el modelo será válido. Es decir, que se ajusta al modelo de referencia. Los parámetros que hay que introducir son, en este orden, el archivo de parámetros de ejecución y el de resultado de la simulación de la ejecución *batch* del simulador.
