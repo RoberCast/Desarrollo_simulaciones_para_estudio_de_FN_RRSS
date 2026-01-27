@@ -133,3 +133,12 @@ En la siguiente ventana, se le da un título al gráfico, por ejemplo, *State of
 
 
 Para finalizar la configuración, es importante que se haga click en el icono del disquete del simulador, 💾. De esta forma se guardará la configuración que se ha introducido.
+
+
+## Video de configuración
+Aquí se muestra un video de la configuración del simulador que se ha visto anteriormente.
+
+
+https://github.com/user-attachments/assets/0cc690c0-ad03-492c-a4d9-8881288ecdb1
+
+
