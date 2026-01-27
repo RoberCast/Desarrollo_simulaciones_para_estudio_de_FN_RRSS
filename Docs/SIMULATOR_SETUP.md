@@ -83,7 +83,7 @@ In the next window, do not change anything and click on *Next*.
   <img src="../Images/Simulator_setup/Displays4.png" alt="FakeNewsSpreadSim Model." width="60%"/>
 </p>
 
-In the next window, leave the *repast.simphony.visualizationOGL2D.DefaultEdgeStyleOGL2D* option selected and click the button to the right of it, which is used to edit the style, in this case, of the grid vertices. In the *Edge Thickness* option, set *Value* to 0.5 and change the color to gray (the default is green). Click *OK* and then *Next*.
+In the next window, leave the *repast.simphony.visualizationOGL2D.DefaultEdgeStyleOGL2D* option selected and click the button to the right of it, which is used to edit the style, in this case, of the network edges. In the *Edge Thickness* option, set *Value* to 0.5 and change the color to gray (the default is green). Click *OK* and then *Next*.
 
 <p align="center">
   <img src="../Images/Simulator_setup/Displays5.png" alt="FakeNewsSpreadSim Model." width="60%"/>
