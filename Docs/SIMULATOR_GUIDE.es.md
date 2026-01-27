@@ -22,20 +22,41 @@ Con el simulador debidamente configurado, ver el documento [SIMULATOR_SETUP.es.m
     * *Hoaxes - pVerify*. Corresponde a la probabilidad de verificación, $p_v$, y es un número en el intervalo $p_v \in [0,1]$.
     * *Hoaxes - pForget*. Corresponde a la probabilidad de olvido, $p_f$, y es un número en el intervalo $p_f \in [0,1]$.
 
-Otro aspecto a tener en cuenta es que el número total de agentes debe ser al menos 100, y como mínimo debe haber agentes en dos estados distintos.
+  Otro aspecto a tener en cuenta es que el número total de agentes debe ser al menos 100, y como mínimo debe haber agentes en dos estados distintos.
 
-Por otro lado, los valores de los parámetros que vienen por defecto corresponden a los valores observados en el modelo de referencia. Estos valores se pueden modificar, teniendo en cuenta que, si se hace click en el icono de guardar (💾) tras modificarlos, se perderán los valores iniciales correspondientes al modelo de referencia. No se perderán si no se hace click en dicho icono.
+  Por otro lado, los valores de los parámetros que vienen por defecto corresponden a los valores observados en el modelo de referencia. Estos valores se pueden modificar, teniendo en cuenta que, si se hace click en el icono de guardar (💾) tras modificarlos, se perderán los valores iniciales correspondientes al modelo de referencia. No se perderán si no se hace click en dicho icono.
+
+  <p align="center">
+      <img src="../Images/Simulator_guide/SimulatorGUI.png" alt="FakeNewsSpreadSim Model." width="60%"/>
+  </p>
 
   * **Cargar la simulación**. Se hace click en el botón *Initialize Run* indicado con una flecha roja en la imagen. Esto hace que se cargue la simulación y que aparezca el botón *Reset* en la botonera anterior. Se pueden observar dos pestañas: *Display* y *State of Agents*. La pestaña *Display* muestra la red de agentes con el algoritmo *Barabási-Albert*, y la pestaña *State of Agents* muestra el gráfico, al inicio vacío. Tanto la red como el gráfico van cambiando a lo largo de la simulación.
 
+  <p align="center">
+    <img src="../Images/Simulator_guide/InitializeRun.png" alt="FakeNewsSpreadSim Model." width="60%"/>
+  </p>
+  
+  <p align="center">
+    <img src="../Images/Simulator_guide/LoadSimulator.png" alt="FakeNewsSpreadSim Model." width="60%"/>
+  </p>
 
 
-* **Inicio de la simulación**. Para comenzar la simulación, se hace click en el botón *Start Run* indicado con una flecha roja en la imagen. Es posible pausar la simulación haciendo click en el botón *Pause* que sustituye al botón anterior mientras la ejecución de la simulación está en marcha. Se podrá reiniciar la simulación haciendo click en el botón *Reset* indicado con una flecha azul en la imagen.
+  * **Inicio de la simulación**. Para comenzar la simulación, se hace click en el botón *Start Run* indicado con una flecha roja en la imagen. Es posible pausar la simulación haciendo click en el botón *Pause* que sustituye al botón anterior mientras la ejecución de la simulación está en marcha. Se podrá reiniciar la simulación haciendo click en el botón *Reset* indicado con una flecha azul en la imagen.
+  
+  <p align="center">
+    <img src="../Images/Simulator_guide/StartRun.png" alt="FakeNewsSpreadSim Model." width="60%"/>
+  </p>
 
 
+  *  **Fin de la simulación**. Cuando se llega al número de pasos de simulación o *ticks* definidos en el parámetro correspondiente, la simulación acaba. La red ha cambiado y se puede visualizar el gráfico como se muestra en las imágenes. Además, se genera un archivo .txt con el formato `Model_Output_Data.[año].[mes].[dia].[hora].txt` en el que los datos tienen la forma `["tick","Susceptible Count","Believer Count","FactChecker Count"]`.
 
-*  **Fin de la simulación**. Cuando se llega al número de pasos de simulación o *ticks* definidos en el parámetro correspondiente, la simulación acaba. La red ha cambiado y se puede visualizar el gráfico como se muestra en las imágenes. Además, se genera un archivo .txt con el formato `Model_Output_Data.[año].[mes].[dia].[hora].txt` en el que los datos tienen la forma `["tick","Susceptible Count","Believer Count","FactChecker Count"]`.
+  <p align="center">
+    <img src="../Images/Simulator_guide/EndSimulation1.png" alt="FakeNewsSpreadSim Model." width="60%"/>
+  </p>
+
+  <p align="center">
+    <img src="../Images/Simulator_guide/EndSimulation2.png" alt="FakeNewsSpreadSim Model." width="60%"/>
+  </p>
 
 
-
-*  **Repetir la simulación**. Para repetir la simulación, los pasos que hay que seguir son: hacer click en el bótón *Reset*, cambiar los parámetros si se desea, hacer click en el botón *Initialize Run* y hacer click en el botón *Start Run*.
+  *  **Repetir la simulación**. Para repetir la simulación, los pasos que hay que seguir son: hacer click en el bótón *Reset*, cambiar los parámetros si se desea, hacer click en el botón *Initialize Run* y hacer click en el botón *Start Run*.
