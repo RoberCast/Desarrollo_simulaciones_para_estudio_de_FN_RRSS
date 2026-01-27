@@ -1,5 +1,5 @@
 # Configuración del simulador
-Después de crear el proyecto de Repast Simphony y tras colocar los archivos indicados en el [README.es.md](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/README.es.md#instrucciones) en su lugar correspondiente, se procede a completar la configuración del simulador. Para ello, se realizan los pasos siguientes:
+Después de crear el proyecto de Repast Simphony y tras colocar los archivos indicados en el [README.es.md](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/README.es.md#instrucciones) en su lugar correspondiente, se procede a completar la configuración del simulador. Dicho proceso se puede ver en [video](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/Docs/SIMULATOR_SETUP.es.md#video-de-configuraci%C3%B3n) al final de este documento. Los pasos del proceso de configuración del simulador son los siguientes:
 
 1. **Ejecución del simulador en modo GUI (ejecución única)**. En el IDE Eclipse que se ha instalado con Repast Simphony, se ejecuta *FakeNewsSpreadSim Model*. Se abre el simulador en modo GUI y se procede a su configuración.
   
@@ -135,9 +135,8 @@ En la siguiente ventana, se le da un título al gráfico, por ejemplo, *State of
 Para finalizar la configuración, es importante que se haga click en el icono del disquete del simulador, 💾. De esta forma se guardará la configuración que se ha introducido.
 
 
-## Video de configuración
-Aquí se muestra un video de la configuración del simulador que se ha visto anteriormente.
-
+## Video de configuración del simulador
+Aquí se muestra un video del proceso de configuración del simulador visto anteriormente.
 
 https://github.com/user-attachments/assets/0cc690c0-ad03-492c-a4d9-8881288ecdb1
 
