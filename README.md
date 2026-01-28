@@ -61,7 +61,7 @@ Root Folder/
 After completing the previous steps, you can perform the following actions:
 
 * Run a simulation in GUI mode.
-* Validate the implemented SBFC news diffusion model.
+* Validate the implemented SBFC news dissemination model.
 * Adjust the SBFC news dissemination model using data extracted from a real news story and validate the adjustment.
 
 *Considerations*: The model probabilities must be manually adjusted until a valid fit is obtained, as this is the procedure used in the adopted validation methodology. Resources are available for learning how to use the simulator and the data analyzer.
@@ -72,7 +72,7 @@ After completing the previous steps, you can perform the following actions:
 ## Demo
 The following two experiments are described: the validation of the implemented SBFC news dissemination model and the fitting of this model to real news data obtained from a real dataset. Both experiments were run on a Windows 11 Pro (x64) system, version 25H2.
 
-* **Validation of the implemented SBFC news diffusion model**. The following video demonstrates that the implemented model is consistent with the reference model, as it ultimately achieves an NRMSE < 0.2 and the behavior is identical with the same parameters. Specifically, the number of agents in the Believer state drops rapidly due to fact-checking, while the number of agents in the FactChecker state increases rapidly. Conversely, the number of agents in the Susceptible state remains constant because, over time, the news may be forgotten. The execution parameter values ​​are shown in the video.
+* **Validation of the implemented SBFC news dissemination model**. The following video demonstrates that the implemented model is consistent with the reference model, as it ultimately achieves an NRMSE < 0.2 and the behavior is identical with the same parameters. Specifically, the number of agents in the Believer state drops rapidly due to fact-checking, while the number of agents in the FactChecker state increases rapidly. Conversely, the number of agents in the Susceptible state remains constant because, over time, the news may be forgotten. The execution parameter values ​​are shown in the video.
 
 https://github.com/user-attachments/assets/4b6e9c38-2dd0-4205-852f-579b85c589e1
 
