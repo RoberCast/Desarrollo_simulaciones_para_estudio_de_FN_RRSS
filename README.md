@@ -76,7 +76,7 @@ The following two experiments are described: the validation of the implemented S
 
 https://github.com/user-attachments/assets/4b6e9c38-2dd0-4205-852f-579b85c589e1
 
-**Fitting the SBFC news dissemination model to data extracted from a real news story and validating the fit.** The following video demonstrates that the news dissemination model can be fitted to real data extracted from a real dataset. The validation obtained is an NRMSE < 0.2, therefore, the fit is valid. The graph shown at the end of the video is a demonstrative example, as it was generated with a single run of the simulator, but it shows that the number of Believer agents approximates the number of users who believed the analyzed real news story. The values ​​of the execution parameters can be seen in the video.
+* **Fitting the SBFC news dissemination model to data extracted from a real news story and validating the fit.** The following video demonstrates that the news dissemination model can be fitted to real data extracted from a real dataset. The validation obtained is an NRMSE < 0.2, therefore, the fit is valid. The graph shown at the end of the video is a demonstrative example, as it was generated with a single run of the simulator, but it shows that the number of Believer agents approximates the number of users who believed the analyzed real news story. The values ​​of the execution parameters can be seen in the video.
 
 https://github.com/user-attachments/assets/c9b59f17-de4d-4ccc-b10f-bf2f08ca510c
 
