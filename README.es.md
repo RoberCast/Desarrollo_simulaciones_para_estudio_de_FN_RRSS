@@ -70,20 +70,20 @@ Tras haber completado los pasos anteriores se pueden realizar las siguientes acc
 * [Guía del analizador de datos, DataAnalyzer](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/Docs/DATAANALYZER_GUIDE.es.md).
 
 
-## Imágenes de demostración
-A continuación, se muestran imágenes del funcionamiento del modelo de difusión de noticias SBFC en Repast Simphony y de la herramienta de validación DataAnalyzer.
+## Demostración
+A continuación, se pueden visualizar dos experimentos: la validación del modelo de difusión de noticias SBFC implementado y el ajuste de dicho de modelo a los datos de una noticia real obtenida de un conjunto de datos reales. Ambos experimentos se han ejecutado en un sistema Windows 11 Pro (x64), versión 25H2.
 
-* Ejecución del modelo de difusión de noticias SBFC en Repast Simphony.
-  
-![modelo](Images/Demo/FakeNewsSpreadSimRun.png)
-  
-* Estado de los agentes tras una simulación.
+* **Validación del modelo de difusión de noticias SBFC implementado**. En el siguiente video se demuestra que el modelo implementado es consistente con el modelo de referencia, ya que finalmente se obtiene un NRMSE < 0.2 y el comportamiento es el igual con los mismos parámetros. Es decir, el número de agentes en estado Believer cae rápidamente porque se realiza una verificación de hechos, se puede ver que aumenta rápidamente el número de agentes en estado FactChecker. Por otro lado, el número de agentes en estado Susceptible se mantiene por el hecho de que, con el paso del tiempo, la noticia puede olvidarse. Los valores de los parámetros de ejecución pueden visualizarse en el video.
 
-![estado_agentes](Images/Demo/StateOfAgents.png)
-  
-* Resultado de la validación del ajuste del modelo a una noticia real a partir de un conjunto de datos reales.
 
-![DataAnalyzer](Images/Demo/DataAnalyzerResult.png)  
+https://github.com/user-attachments/assets/4b6e9c38-2dd0-4205-852f-579b85c589e1
+
+
+* **Ajuste del modelo de difusión de noticias SBFC respecto a los datos extraídos de una noticia real y validación de dicho ajuste**. En el siguiente video se demuestra que el modelo de difusión de noticias puede ser ajustado a los datos reales extraídos de un conjunto de datos reales. La validación obtenida es de un NRMSE < 0.2, por lo tanto, el ajuste es válido. El gráfico que se observa al final del video es un ejemplo demostrativo, ya que se ha generado con una sola ejecución del simulador, pero se comprueba que el número de agentes Believer se aproxima al número de usuarios que creyeron la noticia real analizada. Los valores de los parámetros de ejecución pueden visualizarse en el video.
+
+  
+https://github.com/user-attachments/assets/c9b59f17-de4d-4ccc-b10f-bf2f08ca510c
+
 
 ## Licencia
 Este proyecto está licenciado bajo la **Licencia Pública General GNU v3 (GPLv3)**.
