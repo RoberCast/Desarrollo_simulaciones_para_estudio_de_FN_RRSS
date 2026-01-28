@@ -43,7 +43,7 @@ FakeNewsSpreadSim
          └── parameters.xml
 ```
 
-Los archivos .java conforman el modelo de difusión de noticias SBFC, el archivo *parameters.xml* contiene los parámetros predeterminados del modelo, el archivo *batch_params.xml* contiene los parámetros para la ejecución *batch* del simulador y el archivo *context.xml* contiene instrucciones necesarias para el simulador. El siguiente paso es configurar el simulador, para ello, puede seguir las instrucciones que aparecen en [SIMULATOR_SETUP.es.md](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/Docs/SIMULATOR_SETUP.es.md).
+Los archivos .java conforman el modelo de difusión de noticias SBFC, el archivo *parameters.xml* contiene los parámetros predeterminados del modelo, el archivo *batch_params.xml* contiene los parámetros para la ejecución *batch* del simulador y el archivo *context.xml* contiene instrucciones necesarias para el simulador. El siguiente paso es configurar el simulador, para ello, puede seguir las instrucciones que aparecen [aquí](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/Docs/SIMULATOR_SETUP.es.md).
 
 El siguiente paso es situar el analizador de datos *DataAnalyzer* en la ubicación que desee, puede encontrarlo [aquí](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/tree/main/DataAnalyzer%20JAR). El árbol de directorios para *DataAnalyzer*, que habrá que respetar, es el siguiente:
 
