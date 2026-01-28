@@ -16,7 +16,7 @@ FakeNewsSpreadSim implementa un modelo de difusión de noticias SBFC (Susceptibl
 DataAnalyzer aplica una metodología de validación que implica la ejecución del modelo 10 veces, hacer el promedio del número de agentes en cada estado posible y calcular el NRMSE para determinar la validez del modelo. El modelo se considera válido si el NRMSE < 0.2. DataAnalyzer puede validar el modelo implementado y ajustarlo a la información observada en una noticia real a partir de un conjunto de datos de difusión de noticias reales.
 
 ## Instrucciones
-Para simular y validar el modelo o ajustar el modelo a una noticia real a partir de un conjunto de datos reales, debe instalar Repast Simphony 2.11.0 desde su repositorio oficial:
+Para simular y validar el modelo o ajustar el modelo a una noticia real a partir de un conjunto de datos reales, primero debe instalar Repast Simphony 2.11.0 desde su repositorio oficial:
 
 https://repast.github.io/download.html
 
@@ -43,7 +43,32 @@ FakeNewsSpreadSim
          └── parameters.xml
 ```
 
-El archivo parameters.xml contiene los parámetros predeterminados del modelo. Puede ejecutar Repast Simphony en modo GUI (una simulación única) o por lotes. Para validar el modelo o ajustarlo con datos reales, ejecútelo por lotes y seleccione "DataAnalyzer JAR/Resources /repast simphony output" como carpeta de salida. Siga las instrucciones del archivo "DataAnalyzer JAR/Resources/dataset/README.txt" para seleccionar un conjunto de datos válido y colocarlo en la carpeta "dataset", en la misma ruta. Para comprobar qué comandos son válidos en DataAnalyzer, debe ejecutar el archivo DataAnalyzer.jar desde el comando con la opción "-h", esto mostrará la ayuda. Finalmente, DataAnalyzer mostrará el resultado del análisis.
+Los archivos .java conforman el modelo de difusión de noticias SBFC, el archivo *parameters.xml* contiene los parámetros predeterminados del modelo, el archivo *batch_params.xml* contiene los parámetros para la ejecución *batch* del simulador y el archivo *context.xml* contiene instrucciones necesarias para el simulador. El siguiente paso es configurar el simulador, para ello, puede seguir las instrucciones que aparecen en [SIMULATOR_SETUP.es.md](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/Docs/SIMULATOR_SETUP.es.md).
+
+El siguiente paso es situar el analizador de datos *DataAnalyzer* en la ubicación que desee, puede encontrarlo [aquí](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/tree/main/DataAnalyzer%20JAR). El árbol de directorios para *DataAnalyzer*, que habrá que respetar, es el siguiente:
+
+```bash    
+Root Folder/
+    ├── DataAnalyzer.jar
+    └── Resources/
+         ├── Dataset/
+         │    └── dataset.csv
+         └── Repast Simphony Output/
+              ├── batch_param.txt
+              └── batch_run.txt
+```
+
+Tras haber completado los pasos anteriores se pueden realizar las siguientes acciones:
+
+* Ejecutar una simulación en modo GUI.
+* Realizar una validación del modelo de difusión de noticias SBFC implementado.
+* Realizar un ajuste del modelo de difusión de noticias SBFC respecto a los datos extraídos de una noticia real y validar dicho ajuste.
+
+*Consideraciones*: Las probabilidades del modelo deben ajustarse de manera manual hasta dar con un ajuste válido, ya que es la forma en que se realiza en la metodología de validación adoptada. Existen recursos disponibles para aprender el manejo del simulador y del analizador de datos.
+
+* [Guía del simulador](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/Docs/SIMULATOR_GUIDE.es.md).
+* [Guía del analizador de datos, DataAnalyzer](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/Docs/DATAANALYZER_GUIDE.es.md).
+
 
 ## Imágenes de demostración
 A continuación, se muestran imágenes del funcionamiento del modelo de difusión de noticias SBFC en Repast Simphony y de la herramienta de validación DataAnalyzer.
