@@ -54,7 +54,7 @@ On the other hand, the default parameter values ​​correspond to the values �
 
   <p align="center">
     <img src="../Images/Simulator guide/EndSimulation2.png" alt="FakeNewsSpreadSim Model." width="100%"/>
-  </p>. 
+  </p> 
 
 6. **Repeat the simulation**. To repeat the simulation, the steps to follow are: click on the *Reset* button, change the parameters if desired, click on the *Initialize Run* button and click on the *Start Run* button.
 
