@@ -1,5 +1,5 @@
 # DataAnalyzer guide
-The data analyzer uses the previously adopted validation methodology to validate the results of the SBFC news diffusion model simulation. This methodology involves running the simulation 10 times, calculating the mean number of agents in each possible state, and finding the root mean square error (NRMSE). If NRMSE < 0.2, then the model fit is considered valid.
+The data analyzer uses the previously adopted validation methodology to validate the results of the SBFC news dissemination model simulation. This methodology involves running the simulation 10 times, calculating the mean number of agents in each possible state, and finding the root mean square error (NRMSE). If NRMSE < 0.2, then the model fit is considered valid.
 
 After placing the files and folder tree as indicated in the file [README.md](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/README.md), and after running the simulator in batch mode, see the file [SIMULATOR_GUIDE.md](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/Docs/SIMULATOR_GUIDE.md), the data analyzer is executed from the command line (cmd) using the syntax `java -jar DataAnalyzer.jar [parameters]`. The DataAnalyzer execution commands are explained below.
 
@@ -11,7 +11,7 @@ This parameter consists of the value `-h`. The execution displays the help. If t
   </p>
 
 ## Execution with two parameters
-This run is used to validate the SBFC news diffusion model. It receives data from the output of the simulator's batch run and calculates the NRMSE. If the calculated value is less than 0.2, the model is considered valid, meaning it conforms to the reference model. The parameters to be entered are, in this order, the run parameter file and the simulation result file from the simulator's batch run.
+This run is used to validate the SBFC news dissemination model. It receives data from the output of the simulator's batch run and calculates the NRMSE. If the calculated value is less than 0.2, the model is considered valid, meaning it conforms to the reference model. The parameters to be entered are, in this order, the run parameter file and the simulation result file from the simulator's batch run.
 
 The execution will display an error if the files are incorrect, not in the specified order, or have been renamed. After execution, the analysis results are displayed, showing the simulation parameters, number of ticks, number of executions, the average number of agents in each state after $n$ executions, and the analysis results. An example can be seen in the following figure.
 
