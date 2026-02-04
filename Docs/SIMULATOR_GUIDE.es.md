@@ -14,7 +14,7 @@ Este modo de ejecución consiste en ejecutar la simulación del modelo de difusi
 2. **Introducción de los parámetros de entrada**. En la pestaña *Parameters* se encuentran los parámetros de entrada del modelo de difusión de noticias SBFC utilizado. A continuación, se explica cada uno de ellos.
      
     * *Default Random Seed*. Este parámetro lo incluye el simulador, es la semilla para el flujo aleatorio predeterminado. Se deja el valor por defecto.
-    * *Ends at (ticks)*. Es el número de ticks o pasos de la simulación que tienen que pasar para la simulación termine. Su valor deberá estar entre 1 y 2000.
+    * *Ends at (ticks)*. Es el número de ticks o pasos de la simulación que tienen que pasar para que la simulación termine. Su valor deberá estar entre 1 y 2000.
     * *Agent - Susceptible Count*. Es el número de agentes de tipo *Susceptible* que existen en un inicio en la red de agentes. En la visualización tiene color gris.
     * *Agent - Believer Count*. Es el número de agentes de tipo *Believer* que existen en un inicio en la red de agentes. En la visualización tiene color azul.
     * *Agent - FactChecker Count*. Es el número de agentes de tipo *FactChecker* que existen en un inicio en la red de agentes. En la visualización tiene color rojo.
