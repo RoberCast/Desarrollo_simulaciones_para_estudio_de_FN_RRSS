@@ -79,7 +79,7 @@ Este modo de ejecución sirve para realizar la validación del modelo de difusi�
     <img src="../Images/Simulator guide/ModelTab.png" alt="FakeNewsSpreadSim Model." width="70%"/>
   </p>
   
-3. **Pestaña Batch Parameters**. En esta pestaña se podrían cambiar los valores de los parámetros del modelo, pero hay un problema a la hora de introducir valores decimales, por lo tanto, **la modificación de los valores de los parámetros se hace directamente en el archivo *batch_params.xml* **. En este archivo se pueden modificar el número de ejecuciones en lote, el número de pasos de la simulación, el número de agentes inicial para cada estado y las probabilidades del modelo.
+3. **Pestaña Batch Parameters**. En esta pestaña se podrían cambiar los valores de los parámetros del modelo, pero hay un problema a la hora de introducir valores decimales, por lo tanto, ** la modificación de los valores de los parámetros se hace directamente en el archivo *batch_params.xml* **. En este archivo se pueden modificar el número de ejecuciones en lote, el número de pasos de la simulación, el número de agentes inicial para cada estado y las probabilidades del modelo.
 
   <p align="center">
     <img src="../Images/Simulator guide/BatchParametersTab.png" alt="FakeNewsSpreadSim Model." width="70%"/>
