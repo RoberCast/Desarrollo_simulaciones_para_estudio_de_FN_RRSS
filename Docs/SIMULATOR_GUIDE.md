@@ -75,7 +75,7 @@ This execution mode is used to validate the implemented SBFC news diffusion mode
     <img src="../Images/Simulator guide/ModelTab.png" alt="FakeNewsSpreadSim Model." width="70%"/>
   </p>
 
-3. **Batch Parameters Tab**. This tab allows you to change the model parameter values, but there's a problem entering decimal values. Therefore, parameter values ​​must be modified directly in the *batch_params.xml* file. This file allows you to modify the number of batch runs, the number of simulation steps, the initial number of agents for each state, and the model probabilities.
+3. **Batch Parameters Tab**. This tab allows you to change the model parameter values, but there's a problem entering decimal values. Therefore, **parameter values ​​must be modified directly in the *batch_params.xml* file**. This file allows you to modify the number of batch runs, the number of simulation steps, the initial number of agents for each state, and the model probabilities.
  
   <p align="center">
     <img src="../Images/Simulator guide/BatchParametersTab.png" alt="FakeNewsSpreadSim Model." width="70%"/>
