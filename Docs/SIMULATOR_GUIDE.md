@@ -2,7 +2,7 @@
 With the simulator properly configured, see the [SIMULATOR_SETUP.md](https://github.com/RoberCast/Desarrollo_simulaciones_para_estudio_de_FN_RRSS/blob/main/Docs/SIMULATOR_SETUP.md#simulator-setup) document, we will now explain how the simulator works. There are two simulation modes: GUI mode, for a single simulation, and batch mode, which runs $n$ times. Each of these modes is explained below.
 
 ## GUI mode simulation
-This execution mode consists of running the simulation of the SBFC news diffusion model implemented through a GUI only once. This method allows you to observe how the agent network changes as the simulation progresses and also to view the graph generated with the agent state values; that is, at time $t$, you would see the number of agents in each possible state. This execution serves to demonstrate that the simulated model behaves the same way as the reference model. To execute this simulation mode, follow these steps:
+This execution mode consists of running the simulation of the SBFC news dissemination model implemented through a GUI only once. This method allows you to observe how the agent network changes as the simulation progresses and also to view the graph generated with the agent state values; that is, at time $t$, you would see the number of agents in each possible state. This execution serves to demonstrate that the simulated model behaves the same way as the reference model. To execute this simulation mode, follow these steps:
 
 1. **Execution in Eclipse IDE**. In the Eclipse IDE that was installed with Repast Symphony, run *FakeNewsSpreadSim Model*. This opens the simulator window.
 
@@ -10,7 +10,7 @@ This execution mode consists of running the simulation of the SBFC news diffusio
     <img src="../Images/Simulator setup/EclipseRun.png" alt="FakeNewsSpreadSim Model." width="60%"/>
 </p>
 
-2. **Input parameters**. The *Parameters* tab contains the input parameters for the SBFC news diffusion model used. Each of these parameters is explained below.
+2. **Input parameters**. The *Parameters* tab contains the input parameters for the SBFC news dissemination model used. Each of these parameters is explained below.
 
    * *Default Random Seed*. This parameter is included by the simulator; it is the seed for the default random flow. Leave the default value.
    * *Ends at (ticks)*. This is the number of ticks or simulation steps that must occur for the simulation to end. Its value must be between 1 and 2000.
@@ -60,7 +60,7 @@ On the other hand, the default parameter values ​​correspond to the values �
 
 
 ## Batch mode simulation
-This execution mode is used to validate the implemented SBFC news diffusion model and to conduct experiments with real data. To run the simulation in batch mode, follow these steps:
+This execution mode is used to validate the implemented SBFC news dissemination model and to conduct experiments with real data. To run the simulation in batch mode, follow these steps:
 
 1. **Execution in Eclipse IDE**. In the Eclipse IDE installed with Repast Symphony, run *Batch FakeNewsSpreadSim Model*. The simulator's batch execution window will then appear. This window contains the tabs *Model*, *Batch Parameters*, *Hosts*, and *Console*. This guide only covers the first two tabs.
    
