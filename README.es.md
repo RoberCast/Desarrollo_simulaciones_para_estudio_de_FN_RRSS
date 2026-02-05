@@ -79,7 +79,7 @@ A continuación, se pueden visualizar dos experimentos: la validación del model
 https://github.com/user-attachments/assets/4b6e9c38-2dd0-4205-852f-579b85c589e1
 
 
-* **Ajuste del modelo de difusión de noticias SBFC respecto a los datos extraídos de una noticia real y validación de dicho ajuste**. En el siguiente video se demuestra que el modelo de difusión de noticias puede ser ajustado a los datos reales extraídos de un conjunto de datos reales. La validación obtenida es de un NRMSE < 0.2, por lo tanto, el ajuste es válido. El gráfico que se observa al final del video es un ejemplo demostrativo, ya que se ha generado con una sola ejecución del simulador, pero se comprueba que el número de agentes Believer se aproxima al número de usuarios que creyeron la noticia real analizada. Los valores de los parámetros de ejecución pueden visualizarse en el video.
+* **Ajuste del modelo de difusión de noticias SBFC respecto a los datos extraídos de una noticia real y validación de dicho ajuste**. En el siguiente video se demuestra que el modelo de difusión de noticias puede ser ajustado a los datos reales extraídos de un conjunto de datos reales. La validación obtenida es de un NRMSE < 0.2, por lo tanto, el ajuste es válido. El gráfico que se observa al final del video es un ejemplo representativo, ya que se ha generado con una sola ejecución del simulador, pero se comprueba que el número de agentes Believer se aproxima al número de usuarios que creyeron la noticia real analizada. Los valores de los parámetros de ejecución pueden visualizarse en el video.
 
   
 https://github.com/user-attachments/assets/c9b59f17-de4d-4ccc-b10f-bf2f08ca510c
